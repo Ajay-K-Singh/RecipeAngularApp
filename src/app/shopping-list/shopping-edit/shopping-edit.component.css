@@ -1,0 +1,32 @@
+.ingredients-input {
+    display: grid;
+    width: 50%;
+    padding-left: 40px;
+}
+
+.ingredient-name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ingredient-name-input {
+    width: 250px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.ingredient-number-input {
+    width: 100px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.ingredient-name-input:focus,
+.ingredient-number-input:focus {
+    outline: 0;
+}

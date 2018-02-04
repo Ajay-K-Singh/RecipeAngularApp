@@ -1,5 +1,9 @@
 <div class="shopping-edit">
     <app-shopping-edit></app-shopping-edit>
-    <hr>
-    <p>The list</p>
+    <hr class="edit-hr">
+    <div class="ingredient-list-block">
+        <ul class="ingredient-list">
+            <a href="#" *ngFor="let ingredient of ingredients" class="ingredient">{{ingredient.name}} ({{ingredient.amount}})</a>
+        </ul>
+    </div>
 </div>
