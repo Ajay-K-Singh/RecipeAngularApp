@@ -9,7 +9,7 @@ import { RecipeeListComponent } from './recipees/recipee-list/recipee-list.compo
 import { RecipeeDetailComponent } from './recipees/recipee-detail/recipee-detail.component';
 import { RecipeeItemComponent } from './recipees/recipee-list/recipee-item/recipee-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
-import { ShoppingEditComponent } from './shoppin-list/shopping-edit/shopping-edit.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 
 @NgModule({
   declarations: [

@@ -1,0 +1,68 @@
+.recipe-list-component {
+    padding: 40px;
+    padding-left: 40px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.button-add-recipe {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button-add-recipe:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.recipee-list {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding-top: 5px;
+}
+
+.recipee-list:hover {
+    background-color: rgb(245, 228, 228);
+}
+
+.recipe-image {
+    height: 50px;
+    float: right;
+}
+
+.recipe-image img {
+    float: right;
+    border: 1px solid rgb(241, 234, 234);
+    border-radius: 4px;
+}
+
+.recipe-name {
+    font-size: 20px;
+}
+
+.recipe-description {}

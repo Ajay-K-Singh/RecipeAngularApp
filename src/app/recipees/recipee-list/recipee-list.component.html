@@ -1,7 +1,15 @@
-<div class="recipee-list" *ngFor="let recipe of recipes">
-    <h4>{{recipe.name}}</h4>
-    <p>{{recipe.description}}</p>
-    <div class="image">
-        <img [src]="recipe.imagePath" style="max-height: 200px;">
+<div class="recipe-list-component">
+    <div class="button">
+        <button class="button button-add-recipe">Add Recipe</button>
+    </div>
+    <hr>
+    <div class="recipee-list" *ngFor="let recipe of recipes">
+        <div class="recipe-description">
+            <h4 class="recipe-name">{{recipe.name}}</h4>
+            <p class="recipe-desc">{{recipe.description}}</p>
+        </div>
+        <div class="recipe-image">
+            <img [src]="recipe.imagePath" style="max-height: 70px;">
+        </div>
     </div>
 </div>
