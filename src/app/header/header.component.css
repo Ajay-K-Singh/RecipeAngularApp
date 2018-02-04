@@ -1,15 +1,21 @@
 .header-navigation {
     display: grid;
     grid-template-columns: 4fr 2fr 2fr 10fr;
-    height: 75px;
-    background-color: rgb(25, 51, 92);
+    height: 60px;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    /* Standard syntax (must be last) */
 }
 
 .app-header {
-    font-weight: bolder;
-    font-size: 40px;
-    color: rgb(233, 225, 225);
+    color: rgb(105, 28, 156);
     text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    height: 50px;
+}
+
+.main-header {
+    height: 60px;
 }
 
 .recipee-header {
@@ -21,24 +27,24 @@
 }
 
 .app-recipees {
-    padding-top: 20px;
+    padding-top: 15px;
     font-weight: bold;
     font-size: 18px;
-    color: rgb(233, 225, 225);
+    color: rgb(29, 32, 182);
 }
 
 .app-shopping-list {
-    padding-top: 20px;
+    padding-top: 15px;
     font-weight: bold;
     font-size: 18px;
-    color: rgb(233, 225, 225);
+    color: rgb(39, 47, 153);
 }
 
 .app-manage-list {
-    padding-top: 20px;
+    padding-top: 15px;
     font-weight: bold;
     font-size: 18px;
-    color: rgb(233, 225, 225);
+    color: rgb(55, 95, 155);
     float: right;
     padding-right: 4%;
 }
